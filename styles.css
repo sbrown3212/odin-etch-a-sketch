@@ -11,12 +11,21 @@
 }
 
 #container {
-    border: 1px dotted; /* for visualization purposes */
+    /* for visualization purposes */
+    border: 1px solid;
+
     width: 800px;
     height: 800px;
     display: flex;
     margin: 0 auto;
-    /* padding: 20px; for visualization purposes */
+
+    /* for visualization purposes */
+    /* padding: 20px;  */
+
     display: flex;
     flex-wrap: wrap;
 }
+/* 
+#container > div:hover {
+    background-color: black;
+} */
