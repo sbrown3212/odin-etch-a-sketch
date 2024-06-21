@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#container {
+    border: 1px dotted; /* for visualization purposes */
+    width: 800px;
+    height: 800px;
+    display: flex;
+    margin: 0 auto;
+    /* padding: 20px; for visualization purposes */
+    display: flex;
+    flex-wrap: wrap;
+}
