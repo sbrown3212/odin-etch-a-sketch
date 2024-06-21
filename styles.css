@@ -10,6 +10,11 @@
     margin: 20px;
 }
 
+#resize {
+    display: block;
+    margin: 20px auto;
+}
+
 #container {
     /* for visualization purposes */
     border: 1px solid;
@@ -25,7 +30,3 @@
     display: flex;
     flex-wrap: wrap;
 }
-/* 
-#container > div:hover {
-    background-color: black;
-} */
